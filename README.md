@@ -19,3 +19,13 @@ A simple RESTful Task Manager API built using **FastAPI** and **Pydantic**.
 1. **Install Dependencies:**
    ```bash
    pip install fastapi uvicorn pydantic
+```
+
+2. **Run the Server:**
+```bash
+uvicorn main:app --reload
+```
+
+3. **Interactive API Documentation (Swagger UI):**
+Open your browser and navigate to:
+http://127.0.0.1:8000/docs
